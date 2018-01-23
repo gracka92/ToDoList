@@ -17,8 +17,12 @@ $("input[type='text']").keypress(function(event){
 		var newToDo = $(this).val();
 		$(this).val(""); //empty input
 		//create a new li and add to ul
-		$("ul").append("<li><span>X</span> " + newToDo + "</li>")
+		$("ul").append("<li><span><i class='fa fa-trash'></i></span> " + newToDo + "</li>")
 	}
+});
+
+$(".fa-plus").click(function() {
+	$("input[type='text']").fadeToggle();
 });
 
 
