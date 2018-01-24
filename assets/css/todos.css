@@ -27,6 +27,7 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+	cursor: pointer;
 }
 
 li:nth-child(2n) {
@@ -71,7 +72,9 @@ input:focus{
 	width: 360px;
 	margin: 100px auto;
 	background: #f7f7f7;
+	border-radius: 20px;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	overflow: hidden;
 
 }
 
@@ -82,4 +85,5 @@ input:focus{
 
 .fa-plus {
 	float: right;
+	padding-top: 2px;
 }
